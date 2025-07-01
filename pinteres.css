@@ -1,0 +1,289 @@
+.cuadro{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    border-radius: 5%;
+}
+.cuadrito{
+    background-color: rgb(255, 255, 255);
+}
+
+.cabeza{
+    
+    display: flex;
+    width: 1903px; ; 
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0%;
+    
+    
+}
+.cabeza img{
+    border-radius: 50%;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 9px 22px 9px 26px;
+    border-radius: 30px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    justify-content: flex-end;
+}
+
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes header{
+    size: 10ch;
+}
+.principal{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(7,1fr);
+    padding: 5%;
+    padding-top: 5%;
+    margin-top: auto;
+    height: 800px;
+    width: 1715px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+    
+}
+
+.principal img{
+    border-radius: 10%;
+}
+
+.a1{
+    padding-left: 8%;
+}
+
+.a2{
+    padding-left: 8%;
+}
+
+.a3{
+    padding-left: 8%;
+}
+
+.border1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border1 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border2 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border3 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+.border4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border4 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border5 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+.border6 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border7{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border7 img{
+    object-fit: cover;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border8 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+
+.border8{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border9 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border9{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border10 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border10{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border11 img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.border11{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.lado{
+    list-style: none;
+    background-color:   grey;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lado > li{
+    float: left;
+}
+.lado li ul{
+    display:none;
+    position: relative;
+    min-width: 140px;
+}
+
+
+.lado li:hover > ul{
+    display: block;
+    padding: 10px 10px;
+}
+
+.gustar{
+    color: black;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bloqueo{
+    display: block;
+}
+
+.border{
+        position: relative;
+        overflow: hidden;
+    }
+    
+.card-info{
+    position: absolute;
+    transition-duration: 1s;
+    opacity: 0%;
+    width: 10%;
+    height: 30%;
+    cursor: pointer;
+}
+
+
+.card-info:hover {
+    opacity: 30%;
+}
+
+.card-info button{
+    background-color: cornsilk;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+
+.card-info8{
+    position: absolute;
+    transition-duration: 1s;
+    opacity: 0%;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+
+.card-info8:hover {
+    opacity: 30%;
+}
+.card-info8 button{
+    background-color: cornsilk;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+}
